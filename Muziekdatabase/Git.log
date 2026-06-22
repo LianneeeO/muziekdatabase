@@ -1,0 +1,192 @@
+2026-06-22 11:00:07.837 [info] [main] Log level: Info
+2026-06-22 11:00:07.837 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2026-06-22 11:00:07.837 [info] [askpassManager] Creating content-addressed askpass scripts at c:\Users\PC\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\493597c785d4c5cb
+2026-06-22 11:00:07.997 [info] [askpassManager] Successfully created content-addressed askpass scripts
+2026-06-22 11:00:08.015 [info] [main] Using git "2.54.0.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2026-06-22 11:00:08.015 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-22 11:00:08.450 [info] > git rev-parse --show-toplevel [412ms]
+2026-06-22 11:00:08.450 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-22 11:00:08.658 [info] > git rev-parse --show-toplevel [107ms]
+2026-06-22 11:00:08.658 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-22 11:00:08.976 [info] > git rev-parse --show-toplevel [111ms]
+2026-06-22 11:00:08.976 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-22 11:00:09.047 [info] > git rev-parse --show-toplevel [61ms]
+2026-06-22 11:00:09.047 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-22 11:00:09.048 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-22 11:00:09.323 [info] > git rev-parse --show-toplevel [85ms]
+2026-06-22 11:00:09.323 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-22 11:00:11.486 [info] > git rev-parse --show-toplevel [88ms]
+2026-06-22 11:00:11.486 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-22 11:00:16.796 [info] > git rev-parse --show-toplevel [96ms]
+2026-06-22 11:00:16.796 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-22 11:00:29.455 [info] > git rev-parse --show-toplevel [89ms]
+2026-06-22 11:00:29.455 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-22 11:01:08.670 [info] > git rev-parse --show-toplevel [60ms]
+2026-06-22 11:01:08.670 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-22 11:01:09.879 [info] > git init -b main [84ms]
+2026-06-22 11:01:09.943 [info] > git rev-parse --show-toplevel [56ms]
+2026-06-22 11:01:10.391 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [439ms]
+2026-06-22 11:01:10.413 [info] [Model][openRepository] Opened repository (path): c:\MAMP\htdocs
+2026-06-22 11:01:10.413 [info] [Model][openRepository] Opened repository (real path): c:\MAMP\htdocs
+2026-06-22 11:01:10.413 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-22 11:01:10.479 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-22 11:01:10.559 [info] > git config --get --local core.virtualfilesystem [132ms]
+2026-06-22 11:01:10.560 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-22 11:01:10.595 [info] > git config --get commit.template [141ms]
+2026-06-22 11:01:10.610 [info] > git add -A -- . [169ms]
+2026-06-22 11:01:10.610 [info] warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Muziekdatabase/importeer.php', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Muziekdatabase/index.php', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Muziekdatabase/logboek.php', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Muziekdatabase/muziek_style.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Muziekdatabase/opslaan.php', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Muziekdatabase/zoek.php', LF will be replaced by CRLF the next time Git touches it
+2026-06-22 11:01:10.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [153ms]
+2026-06-22 11:01:10.646 [warning] [Git][getBranch] No such branch: main
+2026-06-22 11:01:10.728 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty-message [103ms]
+2026-06-22 11:01:10.728 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-06-22 11:01:10.756 [info] > git status -z -uall [94ms]
+2026-06-22 11:01:10.766 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [91ms]
+2026-06-22 11:01:10.845 [info] > git config --get-all user.name [105ms]
+2026-06-22 11:01:10.871 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-22 11:01:10.878 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-22 11:01:10.913 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [128ms]
+2026-06-22 11:01:10.914 [warning] [Git][getBranch] No such branch: main
+2026-06-22 11:01:10.914 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2026-06-22 11:01:10.927 [info] > git config --local -l [120ms]
+2026-06-22 11:01:10.972 [info] > git config --get commit.template [146ms]
+2026-06-22 11:01:11.000 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [129ms]
+2026-06-22 11:01:11.000 [warning] [Git][getBranch] No such branch: main
+2026-06-22 11:01:11.019 [info] > git check-ignore -v -z --stdin [174ms]
+2026-06-22 11:01:11.020 [info] > git config --get commit.template [162ms]
+2026-06-22 11:01:11.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [145ms]
+2026-06-22 11:01:11.035 [warning] [Git][getBranch] No such branch: main
+2026-06-22 11:01:11.103 [info] > git config --get --local branch.main.remote [158ms]
+2026-06-22 11:01:11.103 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-22 11:01:11.122 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [151ms]
+2026-06-22 11:01:11.122 [info] fatal: bad revision 'refs/heads/main'
+2026-06-22 11:01:11.123 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2026-06-22 11:01:11.148 [info] > git show --textconv :Muziekdatabase/muziek_style.css [114ms]
+2026-06-22 11:01:11.157 [info] > git status -z -uall [111ms]
+2026-06-22 11:01:11.163 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [104ms]
+2026-06-22 11:01:11.193 [info] > git show --textconv HEAD:Muziekdatabase/muziek_style.css [121ms]
+2026-06-22 11:01:11.209 [info] > git ls-files --stage -- Muziekdatabase/muziek_style.css [123ms]
+2026-06-22 11:01:11.223 [info] > git ls-tree -l HEAD -- Muziekdatabase/muziek_style.css [123ms]
+2026-06-22 11:01:11.223 [info] fatal: Not a valid object name HEAD
+2026-06-22 11:01:11.233 [info] > git config --get --local branch.main.merge [115ms]
+2026-06-22 11:01:11.233 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-22 11:01:11.298 [info] > git hash-object -t tree /dev/null [94ms]
+2026-06-22 11:01:11.299 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/MAMP/htdocs/Muziekdatabase/muziek_style.css.git?%7B%22path%22%3A%22c%3A%5C%5CMAMP%5C%5Chtdocs%5C%5CMuziekdatabase%5C%5Cmuziek_style.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-06-22 11:01:11.308 [info] > git cat-file -s 9d8b92f4f433a8ee57304d9f0dd92a5516b89ad5 [86ms]
+2026-06-22 11:01:11.316 [info] > git hash-object -t tree /dev/null [83ms]
+2026-06-22 11:01:11.316 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/MAMP/htdocs/Muziekdatabase/muziek_style.css.git?%7B%22path%22%3A%22c%3A%5C%5CMAMP%5C%5Chtdocs%5C%5CMuziekdatabase%5C%5Cmuziek_style.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-06-22 11:01:11.405 [info] > git check-ignore -v -z --stdin [67ms]
+2026-06-22 11:01:11.591 [info] > git check-ignore -v -z --stdin [103ms]
+2026-06-22 11:01:11.594 [info] > git check-ignore -v -z --stdin [88ms]
+2026-06-22 11:01:12.063 [info] > git ls-files --stage -- Muziekdatabase/muziek_style.css [76ms]
+2026-06-22 11:01:12.135 [info] > git cat-file -s 9d8b92f4f433a8ee57304d9f0dd92a5516b89ad5 [64ms]
+2026-06-22 11:01:12.207 [info] > git show --textconv :Muziekdatabase/muziek_style.css [62ms]
+2026-06-22 11:01:28.897 [info] > git add -A -- Muziekdatabase/muziek_style.css [93ms]
+2026-06-22 11:01:28.897 [info] warning: in the working copy of 'Muziekdatabase/muziek_style.css', LF will be replaced by CRLF the next time Git touches it
+2026-06-22 11:01:28.917 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-22 11:01:28.966 [info] > git config --get commit.template [60ms]
+2026-06-22 11:01:28.972 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [55ms]
+2026-06-22 11:01:28.972 [warning] [Git][getBranch] No such branch: main
+2026-06-22 11:01:29.038 [info] > git status -z -uall [58ms]
+2026-06-22 11:01:29.041 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [52ms]
+2026-06-22 11:01:29.123 [info] > git -c user.useConfigOnly=true commit --quiet [69ms]
+2026-06-22 11:01:29.123 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-06-22 11:01:29.187 [info] > git config --get-all user.name [56ms]
+2026-06-22 11:01:29.205 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-22 11:01:29.256 [info] > git config --get commit.template [61ms]
+2026-06-22 11:01:29.264 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [59ms]
+2026-06-22 11:01:29.264 [warning] [Git][getBranch] No such branch: main
+2026-06-22 11:01:29.335 [info] > git status -z -uall [64ms]
+2026-06-22 11:01:29.340 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [59ms]
+2026-06-22 11:01:29.458 [info] > git check-ignore -v -z --stdin [92ms]
+2026-06-22 11:01:29.788 [info] > git check-ignore -v -z --stdin [100ms]
+2026-06-22 11:01:34.264 [info] > git ls-files --stage -- Muziekdatabase/muziek_style.css [90ms]
+2026-06-22 11:01:34.353 [info] > git cat-file -s 374ad1b1a60cef26b71c8f73b6dbdaf4d899d026 [76ms]
+2026-06-22 11:01:34.456 [info] > git show --textconv :Muziekdatabase/muziek_style.css [77ms]
+2026-06-22 11:01:34.751 [info] > git check-ignore -v -z --stdin [62ms]
+2026-06-22 11:02:25.038 [info] > git check-ignore -v -z --stdin [60ms]
+2026-06-22 11:02:38.553 [info] > git add -A -- Muziekdatabase/muziek_style.css [82ms]
+2026-06-22 11:02:38.553 [info] warning: in the working copy of 'Muziekdatabase/muziek_style.css', LF will be replaced by CRLF the next time Git touches it
+2026-06-22 11:02:38.566 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-22 11:02:38.645 [info] > git config --get commit.template [80ms]
+2026-06-22 11:02:38.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [74ms]
+2026-06-22 11:02:38.653 [warning] [Git][getBranch] No such branch: main
+2026-06-22 11:02:38.733 [info] > git status -z -uall [69ms]
+2026-06-22 11:02:38.737 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [63ms]
+2026-06-22 11:02:38.827 [info] > git -c user.useConfigOnly=true commit --quiet [78ms]
+2026-06-22 11:02:38.827 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-06-22 11:02:38.906 [info] > git config --get-all user.name [71ms]
+2026-06-22 11:02:38.926 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-22 11:02:38.993 [info] > git config --get commit.template [78ms]
+2026-06-22 11:02:39.003 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [78ms]
+2026-06-22 11:02:39.003 [warning] [Git][getBranch] No such branch: main
+2026-06-22 11:02:39.143 [info] > git status -z -uall [128ms]
+2026-06-22 11:02:39.146 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [118ms]
+2026-06-22 11:02:39.167 [info] > git check-ignore -v -z --stdin [101ms]
+2026-06-22 11:02:39.564 [info] > git check-ignore -v -z --stdin [82ms]
+2026-06-22 11:02:41.253 [info] > git ls-files --stage -- Muziekdatabase/muziek_style.css [85ms]
+2026-06-22 11:02:41.341 [info] > git cat-file -s 7ac0a60a55b4ad50ce0c52747d49b9fb561291f9 [74ms]
+2026-06-22 11:02:41.418 [info] > git show --textconv :Muziekdatabase/muziek_style.css [67ms]
+2026-06-22 11:02:41.787 [info] > git check-ignore -v -z --stdin [120ms]
+2026-06-22 11:07:25.435 [info] > git config --local -l [85ms]
+2026-06-22 11:07:25.519 [info] > git config --get --local branch.main.remote [74ms]
+2026-06-22 11:07:25.519 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-22 11:07:25.588 [info] > git config --get --local branch.main.merge [61ms]
+2026-06-22 11:07:25.588 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-22 11:10:01.236 [info] [main] Log level: Debug
+2026-06-22 11:10:33.602 [info] > git check-ignore -v -z --stdin [75ms]
+2026-06-22 11:10:33.708 [info] > git show --textconv :Muziekdatabase/muziek_style.css [92ms]
+2026-06-22 11:10:33.719 [info] > git show --textconv HEAD:Muziekdatabase/muziek_style.css [90ms]
+2026-06-22 11:10:33.720 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/MAMP/htdocs/Muziekdatabase/muziek_style.css.git?%7B%22path%22%3A%22c%3A%5C%5CMAMP%5C%5Chtdocs%5C%5CMuziekdatabase%5C%5Cmuziek_style.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-06-22 11:10:33.744 [info] > git ls-tree -l HEAD -- Muziekdatabase/muziek_style.css [83ms]
+2026-06-22 11:10:33.744 [info] fatal: Not a valid object name HEAD
+2026-06-22 11:10:33.744 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/MAMP/htdocs/Muziekdatabase/muziek_style.css.git?%7B%22path%22%3A%22c%3A%5C%5CMAMP%5C%5Chtdocs%5C%5CMuziekdatabase%5C%5Cmuziek_style.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-06-22 11:10:33.744 [info] > git ls-files --stage -- Muziekdatabase/muziek_style.css [97ms]
+2026-06-22 11:10:33.815 [info] > git cat-file -s 7ac0a60a55b4ad50ce0c52747d49b9fb561291f9 [62ms]
+2026-06-22 11:10:39.475 [debug] [FileEventLogger][onWorkspaceWorkingTreeFileChange] c:\MAMP\htdocs\Muziekdatabase\Git.log
