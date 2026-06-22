@@ -1,0 +1,143 @@
+/* =====================
+   Algemene reset ( als je iets wil doen gebruik: 
+    git add .  git commit -m "beschrijving wat je gedaan hebt" git push
+    )
+   ===================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8e0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* =====================
+   Pagina-kader
+   ===================== */
+
+.pagina {
+    width: 95vw;
+    max-width: 1200px;
+    min-height: 85vh;
+    border: 3px solid white;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #e8d8f0 0%, #f5ddf5 50%, #fce8f8 100%);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* =====================
+   Header
+   ===================== */
+
+header {
+    text-align: center;
+    padding: 30px 20px 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+header p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 6px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+
+/* =====================
+   Inhoud (tekst + knoppen)
+   ===================== */
+
+.inhoud {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px 60px 60px;
+    gap: 40px;
+}
+
+/* Tekst links */
+.tekst-links {
+    flex: 1;
+}
+
+.tekst-links h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 16px;
+}
+
+.tekst-links h2:first-child {
+    margin-top: 0;
+}
+
+.tekst-links p {
+    font-size: 17px;
+    color: #222;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Knoppen rechts */
+.knoppen-rechts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: stretch;
+    min-width: 220px;
+}
+
+.knop {
+    display: block;
+    background-color: #c9a0e0;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px 30px;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.knop:hover {
+    background-color: #b080d0;
+    transform: translateY(-2px);
+}
+
+.knop:active {
+    transform: translateY(0);
+}
+
+/* Terugknop: sticky onderaan het scherm, links in de pagina */
+.knop.terug {
+    position: fixed;
+    bottom: 24px;
+    left: calc(2.5vw + 20px);
+    z-index: 100;
+    margin-top: 0;
+    padding: 12px 22px;
+    font-size: 0.9rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
