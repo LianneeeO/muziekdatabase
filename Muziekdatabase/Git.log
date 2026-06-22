@@ -50,8 +50,8 @@ warning: in the working copy of 'Muziekdatabase/zoek.php', LF will be replaced b
 
 Run
 
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
+  git config --global user.email "lianne.ververs@gmail.com"
+  git config --global user.name "LianneeeO"
 
 to set your account's default identity.
 Omit --global to set the identity only in this repository.

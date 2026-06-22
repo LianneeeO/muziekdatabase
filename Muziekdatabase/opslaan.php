@@ -175,6 +175,37 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .melding.fout   { background: rgba(220,80,80,0.18);  color: #721c24; border: 1px solid rgba(220,80,80,0.35); }
 
         .terug { display: inline-block; margin-top: 24px; }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 24px;
+            border-bottom: 2px solid #c9a0e0;
+            max-width: 560px;
+        }
+
+        .tab {
+            padding: 10px 26px;
+            font-size: 0.92rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: #9060c0;
+            border-radius: 8px 8px 0 0;
+            background: rgba(201,160,224,0.15);
+            border: 2px solid transparent;
+            border-bottom: none;
+            transition: background 0.2s;
+        }
+
+        .tab:hover  { background: rgba(201,160,224,0.3); }
+        .tab.actief {
+            background: white;
+            color: #4a3080;
+            border-color: #c9a0e0;
+            border-bottom: 2px solid white;
+            margin-bottom: -2px;
+        }
     </style>
 </head>
 <body>
@@ -189,6 +220,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="tekst-links">
             <h2>Nummer opslaan</h2>
         </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <a href="opslaan.php" class="tab actief">Nieuw nummer</a>
+        <a href="bewerken.php" class="tab">Bewerk / verwijder</a>
     </div>
 
     <?php if ($melding !== ''): ?>
